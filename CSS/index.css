@@ -40,7 +40,7 @@ body {
     display: none;
 }
 
-@media screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
     .header_nav a:not(:first-child) {display: none;}
     .header_nav a.icon {
         float: right;
@@ -48,7 +48,7 @@ body {
     }
 }
 
-@media screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
     .header_nav.responsive {position: relative;}
     .header_nav.responsive .icon {
         position: absolute;
